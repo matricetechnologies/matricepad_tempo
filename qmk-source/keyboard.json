@@ -18,7 +18,7 @@
     },
     "matrix_pins": {
         "cols": ["B6", "B2"],
-        "rows": ["B3", "B1", "NO_PIN"]
+        "rows": ["B3", "B1", "F6", "NO_PIN"]
     },
     "matrix_size": {
         "cols": 2,
@@ -39,7 +39,7 @@
                 {"matrix": [1, 0], "x": 0, "y": 1},
                 {"matrix": [1, 1], "x": 1, "y": 1},
 				
-                {"matrix": [2, 0], "x": 2, "y": 3}
+                {"matrix": [2, 0], "x": 2, "y": 2}
             ]
         }
     }
