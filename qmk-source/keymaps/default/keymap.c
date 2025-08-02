@@ -5,9 +5,9 @@ void keyboard_pre_init_user(void) { setPinInputHigh(F6); }   // pull-up
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [0] = LAYOUT_2x2_knob(
-        KC_F13, KC_F14,
-        KC_F15, KC_F16
-        KC_MUTE                    /* kbtn → encoder press */
+        KC_MPRV, KC_MPLY,
+        KC_MSTP, KC_MNXT,
+        KC_MUTE
     )
 };
 /* rotary turns (direction already correct) */
