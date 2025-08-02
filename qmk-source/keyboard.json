@@ -1,0 +1,46 @@
+{
+    "manufacturer": "matrice_technologies",
+    "keyboard_name": "matrice_pad_tempo",
+    "bootloader": "caterina",
+    "diode_direction": "ROW2COL",
+    "direct_pins": [
+        ["F6", "NO_PIN"]
+    ],
+    "encoder": {
+        "rotary": [
+            {"pin_a": "F5", "pin_b": "F4", "resolution": 1}
+        ]
+    },
+    "features": {
+        "console": true,
+        "encoder": true,
+        "extrakey": true
+    },
+    "matrix_pins": {
+        "cols": ["B6", "B2"],
+        "rows": ["B3", "B1", "NO_PIN"]
+    },
+    "matrix_size": {
+        "cols": 2,
+        "rows": 2
+    },
+    "processor": "atmega32u4",
+    "usb": {
+        "device_version": "0.0.1",
+        "pid": "0x6060",
+        "vid": "0xFEED"
+    },
+    "layouts": {
+        "LAYOUT_3x4_knob": {
+            "layout": [
+                {"matrix": [0, 0], "x": 0, "y": 0},
+                {"matrix": [0, 1], "x": 1, "y": 0},
+				
+                {"matrix": [1, 0], "x": 0, "y": 1},
+                {"matrix": [1, 1], "x": 1, "y": 1},
+				
+                {"matrix": [2, 0], "x": 2, "y": 3}
+            ]
+        }
+    }
+}
